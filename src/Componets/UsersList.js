@@ -12,7 +12,7 @@ const UsersList = () => {
 
     const getUser = async () => {
 
-        axios.get('https://netlifyusersbackend.netlify.app/')
+        axios.get('https://netlify-backend.netlify.app/')
             .then(res => {
                 setUsers(res.data);
             }).catch(err => {
