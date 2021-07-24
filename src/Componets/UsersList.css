@@ -1,0 +1,13 @@
+.mytable{
+    border: black solid 1px;
+    width: 400px;
+    margin-top: 20px;
+    background-color: gold;
+}
+
+.center{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
